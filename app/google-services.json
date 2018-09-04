@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "206512061520",
+    "firebase_url": "https://torneosanmartin-8b05c.firebaseio.com",
+    "project_id": "torneosanmartin-8b05c",
+    "storage_bucket": "torneosanmartin-8b05c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206512061520:android:41ab97d4331c5e62",
+        "android_client_info": {
+          "package_name": "com.example.mark.torneosanmartin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206512061520-rf76jl3fqssgie0mgng1ds0i8p0qheu4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mark.torneosanmartin",
+            "certificate_hash": "fd54f3feb0c5aadb4f417f1623aa2cf54fb63105"
+          }
+        },
+        {
+          "client_id": "206512061520-di06feoto7r07lv8jb7mok09mjrn88te.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAaeMt5h9hZBHdtfXehOZKjxTbmTL5UJw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206512061520-di06feoto7r07lv8jb7mok09mjrn88te.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
