@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:padding="8dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTable"
+            android:text="#"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorTable"
+            android:ellipsize="middle"
+
+            android:text="Equipo"/>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTable"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="PTS |"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTable"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="PJ |"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTable"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="PG |"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTable"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="PE |"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTable"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="PP |"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTable"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="GF |"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTable"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="GC |"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTable"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:text="DIF"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+</LinearLayout>
